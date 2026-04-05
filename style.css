@@ -1,3 +1,4 @@
+/* Base styles */
 body {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
 }
 
 .moon-container {
-  padding: 100px 20px;
+  padding: 80px 20px;
 }
 
 h1 {
@@ -20,7 +21,7 @@ h1 {
 p {
   font-size: 18px;
   color: #f8f8ff;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .cat-image {
@@ -28,4 +29,60 @@ p {
   margin-top: 30px;
   border-radius: 50%;
   box-shadow: 0 0 10px #4b0082;
+}
+
+/* Tarot Grid Styles */
+.tarot-grid {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 0 20px #4b0082;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tarot-grid .card {
+  flex: 1 1 250px;
+  min-width: 200px;
+  border: 2px solid #7fffd4;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #000;
+  transition: all 0.3s ease;
+}
+
+.tarot-grid .card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.tarot-grid .card p {
+  margin: 10px 0 20px;
+  color: #e6e6fa;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 10px;
+}
+
+.tarot-grid .card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #7fffd4;
+}
+
+.tarot-grid .card .past,
+.tarot-grid .card .present,
+.tarot-grid .card .future {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #7fffd4;
+  background-color: #000;
+  padding: 10px 0;
 }
