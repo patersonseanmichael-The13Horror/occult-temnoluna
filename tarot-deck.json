@@ -1,0 +1,29 @@
+{
+  "deck": [
+    {
+      "name": "The High Priestess",
+      "image": "images/tarot/high-priestess.png",
+      "meaning": "Mystery, duality, subconscious wisdom"
+    },
+    {
+      "name": "The Lovers",
+      "image": "images/tarot/lovers.png",
+      "meaning": "Love, choices, harmony and alignment"
+    },
+    {
+      "name": "The Moon",
+      "image": "images/tarot/moon.png",
+      "meaning": "Intuition, illusion, hidden truths"
+    },
+    {
+      "name": "The Star",
+      "image": "images/tarot/star.png",
+      "meaning": "Hope, guidance, cosmic connection"
+    },
+    {
+      "name": "The Tower",
+      "image": "images/tarot/tower.png",
+      "meaning": "Sudden change, awakening, upheaval"
+    }
+  ]
+}
