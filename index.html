@@ -9,30 +9,55 @@
 <body>
   <div class="moon-container">
     <h1>Temnoluna</h1>
-    <p>Lunar balance. Justice in duality. High Priestess' path.</p>
-    <p>Siamese eyes guide the way between stars and law.</p>
+    <p class="description">
+      Lunar balance. Justice in duality. High Priestess' path.  
+      Click the cards for revelations. 🌙🔮
+    </p>
     <img 
       src="https://i.imgur.com/XmztLZb.png" 
       alt="Temnoluna's Siamese Cat" 
       class="cat-image" 
     />
     <div class="tarot-grid">
-      <!-- Past -->
-      <div class="card past" data-title="The Past">
-        <img src="https://i.imgur.com/HighPriestessFront.png" alt="High Priestess">
-        <p>Bound by law, yet drawn to shadow.</p>
+      <div class="card past"> 
+        <div class="card-wrapper">
+          <div class="front">
+            <img src="images/tarot/back-of-card.png" alt="Card back">
+          </div>
+          <div class="back">
+            <img src="" alt="Front of card">
+            <p></p>
+          </div>
+        </div>
       </div>
-      <!-- Present -->
-      <div class="card present" data-title="The Present">
-        <img src="https://i.imgur.com/LoveFront.png" alt="The Lovers">
-        <p>A choice between duality: law and intuition.</p>
+      <div class="card present"> 
+        <div class="card-wrapper">
+          <div class="front">
+            <img src="images/tarot/back-of-card.png" alt="Card back">
+          </div>
+          <div class="back">
+            <img src="" alt="Front of card">
+            <p></p>
+          </div>
+        </div>
       </div>
-      <!-- Future -->
-      <div class="card future" data-title="The Future">
-        <img src="https://i.imgur.com/TheMoonFront.png" alt="The Moon">
-        <p>Whispers of the unknown — tread with courage.</p>
+      <div class="card future"> 
+        <div class="card-wrapper">
+          <div class="front">
+            <img src="images/tarot/back-of-card.png" alt="Card back">
+          </div>
+          <div class="back">
+            <img src="" alt="Front of card">
+            <p></p>
+          </div>
+        </div>
       </div>
     </div>
+    <button id="shuffle-button" class="shuffle-button">Get New Reading</button>
   </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
 </body>
 </html>
